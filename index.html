@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + TS</title>
+  </head>
+  <body>
+    <div id="app">
+      <h1>My SandBox</h1>
+
+      <section class="grid">
+        <div>
+          <textarea id="html" spellcheck="false"></textarea>
+        </div>
+        <div>
+          <textarea id="css" spellcheck="false"></textarea>
+        </div>
+        <div>
+          <textarea id="js" spellcheck="false"></textarea>
+        </div>
+        <div>
+          <iframe id="preview"></iframe>
+        </div>
+        <div class="horizontal-gutter"></div>
+        <div class="vertical-gutter"></div>
+      </section>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
