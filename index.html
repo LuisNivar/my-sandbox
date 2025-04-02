@@ -8,18 +8,17 @@
   </head>
   <body>
     <div id="app">
-      <h1>My SandBox</h1>
-
-      <section class="grid">
-        <div>
-          <textarea id="html" spellcheck="false"></textarea>
-        </div>
-        <div>
-          <textarea id="css" spellcheck="false"></textarea>
-        </div>
-        <div>
-          <textarea id="js" spellcheck="false"></textarea>
-        </div>
+      <nav>
+        <button>🛖</button>
+        <button>📦</button>
+        <button>📂</button>
+        <span aria-hidden="true" class="empty-sidebar"></span>
+        <button>⚙️</button>
+      </nav>
+      <section class="workspace">
+        <div class="editor" id="html"></div>
+        <div class="editor" id="css"></div>
+        <div class="editor" id="js"></div>
         <div>
           <iframe id="preview"></iframe>
         </div>
